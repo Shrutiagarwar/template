@@ -181,7 +181,7 @@ main{
         padding: 2px!important;
         font-weight: bold;
         color: white;
-        overflow: auto;
+        overflow: hidden;
     }
     .header-extra,.whattodo{
         height: auto;
