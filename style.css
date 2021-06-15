@@ -65,7 +65,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     position: relative;
     top:-10vh;
     margin: 0 auto!important;
@@ -82,21 +82,19 @@ main{
 }
 .right{
     background-image: linear-gradient(190deg,#5837ab,#eb7081);
-    height: 70vh;
-    width: 60%;
+    height:70vh;
+    width:60%;
     padding: 2px 34px!important;
     float:right;
     
 }
-.right p,h3{
+/* .right p,h3{
     position: relative;
     color: white;
     font-size: 1.2rem;
     padding: 2px 8px!important;
-    text-align: right;
-    
-   
-}
+    text-align: right;  
+} */
 
 
 
@@ -149,6 +147,13 @@ main{
 .header-extra,.whattodo,.header-extra-div{
         height: auto;
     }
+   .main{
+        width: 50%!important;
+        /* height: auto; */
+    }
+    .right p{
+        overflow: auto;
+    }
     .extra-div{
         padding: 10px 0px!important;
     }
@@ -163,6 +168,20 @@ main{
     .header-extradiv{
         /* border: 2px solid red; */
         margin: 10px 0px!important;
+    }
+    
+}
+@media (min-height:1000px) {
+    .left,.right{
+        height: 52vh;
+        margin-top: 100px;
+    }
+    .right p{
+        font-size: 1.6rem;
+        padding: 2px!important;
+        font-weight: bold;
+        color: white;
+        overflow: auto;
     }
     
 }
