@@ -183,5 +183,12 @@ main{
         color: white;
         overflow: auto;
     }
+    .header-extra-div {
+        width: 100%;
+        /* height: auto; */
+        height: 50vh;
+        margin-bottom: 50px;
+        background: rgb(230, 221, 221);
+    }
     
 }
