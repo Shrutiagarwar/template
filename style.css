@@ -183,6 +183,9 @@ main{
         color: white;
         overflow: auto;
     }
+    .header-extra,.whattodo{
+        height: auto;
+    }
     .header-extra-div {
         width: 100%;
         /* height: auto; */
